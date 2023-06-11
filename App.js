@@ -5,15 +5,11 @@ import {
   Text,
   View,
   SafeAreaView,
-  TouchableWithoutFeedback,
-  TouchableOpacity,
-  TouchableHighlight,
   Image,
   Platform,
   Button,
   TextInput,
-  Alert,
-  ScrollView
+  Alert
 } from 'react-native';
 
 export default function App() {
@@ -27,10 +23,6 @@ export default function App() {
   }
   return randomNumber;
 }
-
-  
-// console.log(generateRandomNumber(data.length-1));
-
   const Reset = () =>{
     setRandom(null);
   }
